@@ -1,0 +1,146 @@
+.green {
+  color: rgb(14, 180, 158);
+ 
+}
+.bold {
+    font-weight: bold;
+}
+h1 {
+    font-size: 24pt;
+}
+h2 {
+    font-size: 18pt;
+}
+
+.box {
+    position: absolute;
+    width: 150px;
+    height: 68px;
+    background: rgb(14, 180, 158);
+    border: white;
+}
+
+.white{
+    color:  white;
+    font-size: 24pt;
+    text-align: center;
+}
+
+.box-set1 {
+    background-color: white;
+    width: 500px;
+    border: 1px solid lightgray;
+    padding: 25px;
+    margin: 25px;
+    text-align: center;
+  }
+
+  .box-set2 {
+    background-color: white;
+    width: 1000px;
+    border: 1px solid lightgray;
+    padding: 25px;
+    margin: 25px;
+    text-align: center;
+  }
+
+  .box-set3 {
+    background-color: white;
+    text-align: center;
+    border: 1px solid lightgray;
+    width: 600px;
+    padding: 25px;
+    margin: 25px;
+  }
+  .box-set4 {
+    background-color: white;
+    text-align: center;
+    border: 1px solid lightgray;
+    width: 400px;
+    padding: 25px;
+    margin: 25px;
+  }
+  .box-set5 {
+    background-color: white;
+    text-align: center;
+    border: 1px solid lightgray;
+    width: 1000px;
+    padding: 25px;
+    margin: 25px;
+  }
+
+  .box-1 {
+    top: 3px;
+    left: 40px;
+  }
+
+  #float-image {
+    float: left;
+  }
+
+
+  .padding {
+      padding: 30px;
+  }
+  .small-pad {
+      padding: 10px;
+  }
+
+  .whitebox {
+    display: inline-block;
+    padding: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    background: white;
+    border-radius: 3px;
+}
+
+.navbar {
+    padding: 10px;
+    background: white;
+    top: 7px;
+    left: 2px;
+  }
+  
+
+  .navbar li {
+    display: inline-block;
+    padding: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+    background: white;
+    border-radius: 3px;
+  }
+  
+  .navbar li a {
+    color: #000;
+    text-decoration: none;
+  }
+
+  .fontsizenav {
+      font-size:16pt;
+  }
+  
+  .box-set-comparisons {
+    position: relative;
+    position: relative;
+    top: 0px;
+    height: 900px;
+    background: lightgray;
+  }
+
+  .center {
+      text-align: center;
+  }
+
+ .background {
+     background-color: lightgray;
+ }
+ .float-right {
+     float: right;
+ }
+ .border{
+     border: 2px rgb(14, 180, 158);
+     border-style: solid;
+ }
