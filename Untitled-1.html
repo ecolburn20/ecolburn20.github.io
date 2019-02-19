@@ -2,82 +2,114 @@
 
 
 <html lang="en-us">
-<head>
-  <meta charset="UTF-8">
-  <title>Latitude</title>
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="style.css">
+<head>
+    <meta charset="UTF-8">
+    <title>Latitude</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
 
 <body class="background">
-    
-    
-    <nav class="navbar navbar-default">
-            <ul>
-                <li class="float-right">
-                    <select id="nav-select">
-                        <option value="Home">Plots</option>
-                        <option value="about">Max Temperature</option>
-                        <option value="portfolio">Humidity</option>
-                         <option value="contact">Cloudiness</option>
-                         <option value="contact">Wind Speed</option>
-                        </select>
-
-                </li>
-                <li class="float-right">
-                    <a class="fontsizenav" href="https://ecolburn20.github.io/comparisons.html">Comparison</a>
-                </li>
-                <li class=float-right>   
-                    <a class="fontsizenav" href="https://ecolburn20.github.io/data.html">Data</a>
-                </li>
-                <li>
-                <a class="box white box-1 bold" href="https://ecolburn20.github.io/Untitled-1.html">Latitude</a>
-                </li>   
-            </ul>
 
 
-        
-        <div class="clearfix"></div>
+
+    <ul>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand box white box-1 bold" href="https://ecolburn20.github.io/Untitled-1.html">Latitude</a>
+                </div>
+                <div class="collapse navbar-collapse navbar-right navbar-right-custom">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown float-right">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                                aria-expanded="false">Plots <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="https://ecolburn20.github.io/max_temp.html">Max Temperature</a>
+                                </li>
+                                <li>
+                                    <a href="https://ecolburn20.github.io/humidity.html">Humidity</a>
+                                </li>
+                                <li>
+                                    <a href="https://ecolburn20.github.io/cloudiness.html">Cloudiness</a>
+                                </li>
+                                <li>
+                                    <a href="https://ecolburn20.github.io/wind_speed.html">Wind Speed</a>
+                                </li>
+
+
+                            </ul>
+                        </li>
+                        <li class="active float-right">
+                            <a href="https://ecolburn20.github.io/comparisons.html">Comparison <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="active float-right"><a href="https://ecolburn20.github.io/data.html">Data</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </ul>
+
+
+
+    <div class="clearfix"></div>
     </nav>
 
-              
-       <div class="row">
-    
-    <div>
-        <div class="container">
 
-            
+    <div class="row">
+
+        <div>
+            <div class="container">
+
+
                 <div class="col-sm-12 col-md-7 box-set1">
                     <h1 class="green bold">Summary: Latitude vs. X</h1><br><br>
-                    <p><img class='padding' id=float-image src="https://ecolburn20.github.io/Fig1.png" 
-                        width="300" height="300" alt="Fig1">
-                        The purpose of this project was to analyze how weather changes as you get closer to the equator.
-                            To accomplish this analysis, we first pulled data from the OpenWeatherMap
-                            API to assemble a dataset on over 500 cities. <br><br>
-                            After assembling the dataset, we used Matplotlib to plot various aspects of the
-                            weather vs latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity.
-                            This site provides the source data and visualizations created as part of the 
-                            analysis, as well as explanations and descriptions of any trends and correlations witnessed.   
-                         
-                    </p>
-                
-                    
+                    <p><img class='padding' id=float-image src="https://ecolburn20.github.io/Fig1.png" width="300"
+                            height="300" alt="Fig1">
+                        The purpose of this project was to analyze how weather changes as you get closer to the
+                        equator.
+                        To accomplish this analysis, we first pulled data from the OpenWeatherMap
+                        API to assemble a dataset on over 500 cities. <br><br>
+                        After assembling the dataset, we used Matplotlib to plot various aspects of the
+                        weather vs latitude. Factors we looked at included: temperature, cloudiness, wind speed, and
+                        humidity.
+                        This site provides the source data and visualizations created as part of the
+                        analysis, as well as explanations and descriptions of any trends and correlations witnessed.
 
-                    
+                    </p>
+
+
+
+
                 </div>
-                    <div class="col-sm-12 col-md-5 box-set1">
+                <div class="col-sm-12 col-md-5 box-set1">
 
                     <h1 class="green bold">Visualizations</h1>
-                    <a href="https://ecolburn20.github.io/max_temp.html"></a><img class='small-pad' src="https://ecolburn20.github.io/Fig1.png" width="200" height="200" alt="Fig1"></a>
-                    <a href="https://ecolburn20.github.io/humidity.html"></a><img class='small-pad' src="https://ecolburn20.github.io/Fig2.png" width="200" height="200" alt="Fig2"></a>
-                    <a href="https://ecolburn20.github.io/cloudiness.html"></a><img class='small-pad' src="https://ecolburn20.github.io/Fig3.png" width="200" height="200" alt="Fig3"></a>
-                    <a href="https://ecolburn20.github.io/wind_speed.html"></a><img class='small-pad' src="https://ecolburn20.github.io/Fig4.png" width="200" height="200" alt="Fig4"></a>
-    
-                    </div>
+                    <a href="https://ecolburn20.github.io/max_temp.html"><img class='small-pad' src="https://ecolburn20.github.io/Fig1.png"
+                            width="200" height="200" alt="Fig1"></a>
+                    <a href="https://ecolburn20.github.io/humidity.html"><img class='small-pad' src="https://ecolburn20.github.io/Fig2.png"
+                            width="200" height="200" alt="Fig2"></a>
+                    <a href="https://ecolburn20.github.io/cloudiness.html"><img class='small-pad' src="https://ecolburn20.github.io/Fig3.png"
+                            width="200" height="200" alt="Fig3"></a>
+                    <a href="https://ecolburn20.github.io/wind_speed.html"><img class='small-pad' src="https://ecolburn20.github.io/Fig4.png"
+                            width="200" height="200" alt="Fig4"></a>
+
+                </div>
             </div>
         </div>
-    
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+        ​
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
 
 </body>
+
+</html>
